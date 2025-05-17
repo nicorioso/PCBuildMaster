@@ -12,7 +12,7 @@ public class VistaProductos {
             System.out.println("Marca: " + p.getMarca());
             System.out.println("Precio: $" + p.getPrecio());
             System.out.println("Stock: " + p.getStock() + " unidades");
-            System.out.println("---------------");
+            System.out.println("-------------------------------------");
         }
     }
 }

@@ -17,22 +17,3 @@ public class ControladorProducto {
     }
 }
 
-
-//package controlador;
-//
-//import modelo.modeloProductos;
-//import vista.vistaProductos;
-//
-//public class controlador {
-//    private vistaProductos vistaProductos;
-//    private modeloProductos modeloProductos;
-//
-//    public controlador(vistaProductos vistaProductos, modeloProductos modeloProductos) {
-//        this.vistaProductos = vistaProductos;
-//        this.modeloProductos = modeloProductos;
-//    }
-//
-//    public void mostrarProductosEnVista() {
-//        vistaProductos.mostrarProductos(modeloProductos.obtenerTodosLosProductos());
-//    }
-//}
