@@ -1,6 +1,7 @@
 package controlador;
 
 import controlador.*;
+import modelo.Carrito;
 import modelo.ProductoInsert;
 import vista.*;
 import modelo.ProductoDAO;
@@ -34,6 +35,12 @@ public class ControladorMenu {
                     VistaInsProductos vista2 = new VistaInsProductos();
                     ControladorInsProducto control2 = new ControladorInsProducto(vista2, modelo2);
                     control2.mostrarInsertarProducto();
+                    break;
+                case 3:
+                    Carrito modelo3 = new Carrito();
+                    VistaCarrito vista3 = new VistaCarrito();
+                    ControladorCarrito control3 = new ControladorCarrito(vista3, modelo3);
+                    control3.insertarProducto();
                 default:
                     System.out.println("ingrese un numero valido");
                 break;

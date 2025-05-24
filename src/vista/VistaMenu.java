@@ -13,6 +13,7 @@ public class VistaMenu {
         System.out.println("0. Cerrar");
         System.out.println("1. Ver Productos");
         System.out.println("2. Insertar Producto");
+        System.out.println("3. carrito");
         System.out.println("-------------------------------------");
         System.out.print("Ingrese el numero de lo que desea hacer: ");
         Scanner lectura = new Scanner(System.in);
